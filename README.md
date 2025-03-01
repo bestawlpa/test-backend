@@ -12,7 +12,7 @@
 
 - npm install
 
-## รันโปรเจค
+## รัน โปรเจค
 
 - npm run dev
 
