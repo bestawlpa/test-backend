@@ -78,7 +78,7 @@ const seedData = async () => {
 
         const newOrder = [
             {
-                user_id: 'user123',
+                userId: 'user123',
                 transaction_id: 'txn789',
                 transaction_type: 'BUY',
                 crypto_id: 'BTC',
