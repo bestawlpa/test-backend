@@ -28,5 +28,17 @@ const getOrderByUserId = async (userId) => {
     }
 };
 
+const deleteOrder = async (orderId, userId) => {
+    try {
+        const order = await Order.findById(orderId);
+        if (order.userId.toString() !== userId) {
+            throw new Error('You do not have permission to delete this order');
+        }
+        await order.deleteOne();
+        return { message: 'Order deleted successfully' };
+    } catch (error) {
+        throw new Error('Error deleting order: ' + error.message);
+    }
+};
 
-module.exports = { getAllOrders, createOrder, getOrderByUserId }
+module.exports = { getAllOrders, createOrder, getOrderByUserId, deleteOrder };

@@ -39,4 +39,19 @@ const getOrderByUserId = async (req, res) => {
     }
 };
 
-module.exports = { getAllOrders, createOrder, getOrderByUserId }
+const deleteOrder = async (req, res) => {
+    try {
+        const { orderId, userId } = req.params;
+
+        if (!userId) {
+            return res.status(400).json({ message: 'User ID is required' });
+        }
+
+        const result = await orderService.deleteOrder(orderId, userId);
+        res.status(200).json(result);
+    } catch (error) {
+        res.status(500).json({ message: 'Error deleting order', error: error.message });
+    }
+};
+
+module.exports = { getAllOrders, createOrder, getOrderByUserId, deleteOrder };
