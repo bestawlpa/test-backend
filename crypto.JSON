@@ -1,0 +1,47 @@
+[
+  {
+    "_id": "67c16d4dc2bb810860c801b2",
+    "cryto_name": "bitcoin",
+    "symbol": "BTC",
+    "price": 63000,
+    "__v": 0,
+    "createdAt": "2025-02-28T08:01:17.506Z",
+    "updatedAt": "2025-02-28T08:01:17.506Z"
+  },
+  {
+    "_id": "67c16dfbc2bb810860c801bd",
+    "cryto_name": "ethereum",
+    "symbol": "ETH",
+    "price": 3400,
+    "__v": 0,
+    "createdAt": "2025-02-28T08:04:11.991Z",
+    "updatedAt": "2025-02-28T08:04:11.991Z"
+  },
+  {
+    "_id": "67c16dfbc2bb810860c801be",
+    "cryto_name": "binancecoin",
+    "symbol": "BNB",
+    "price": 400,
+    "__v": 0,
+    "createdAt": "2025-02-28T08:04:11.991Z",
+    "updatedAt": "2025-02-28T08:04:11.991Z"
+  },
+  {
+    "_id": "67c16dfbc2bb810860c801bf",
+    "cryto_name": "cardano",
+    "symbol": "ADA",
+    "price": 1.2,
+    "__v": 0,
+    "createdAt": "2025-02-28T08:04:11.992Z",
+    "updatedAt": "2025-02-28T08:04:11.992Z"
+  },
+  {
+    "_id": "67c16dfbc2bb810860c801c0",
+    "cryto_name": "solana",
+    "symbol": "SOL",
+    "price": 150,
+    "__v": 0,
+    "createdAt": "2025-02-28T08:04:11.992Z",
+    "updatedAt": "2025-02-28T08:04:11.992Z"
+  }
+]
